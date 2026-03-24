@@ -30,7 +30,7 @@ public:
             }
         }
         return maxProfit;
-    }<img width="1920" height="936" alt="Screenshot (1185)" src="https://github.com/user-attachments/assets/94f74a55-6bf4-44ff-804a-1f781748bab3" />
+    }
 };
 ```
 
