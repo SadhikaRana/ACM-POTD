@@ -20,15 +20,14 @@ public:
         int n = nums.size();
         int expected = n * (n + 1) / 2;
         int actual = 0;
-
         for (int x : nums) {
             actual += x;
         }
+        return expected - actual;
+    }
+};
 ```
 ## Screenshot
 <img width="1920" height="955" alt="Screenshot (1188)" src="https://github.com/user-attachments/assets/a9938e3d-8579-4076-a918-ab7fe88db56c" />
 
 
-        return expected - actual;
-    }
-};
